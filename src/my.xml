@@ -1,0 +1,8 @@
+<xml>
+    <name>jishuya</name>
+    <base>beijing</base>
+    <obj>
+        <first>one</first>
+        <second>two</second>
+    </obj>
+</xml>
