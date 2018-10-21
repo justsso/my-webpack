@@ -9,11 +9,11 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(['dist']),
         new HtmlWebpackPlugin({
-            title: '管理输出'
+            title: '缓存'
         })
     ],
     output: {
-        filename: "[name].bundle.js",
+        filename: "[name].[chunkhash].js",
         path: path.resolve(__dirname, 'dist')
     }
 };
